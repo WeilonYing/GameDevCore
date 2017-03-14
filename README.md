@@ -17,7 +17,7 @@ This repository uses GitHub as the host for this Git repository. GitHub provides
 * Install the application and set up a GitHub account if you don't have one yet.
 * Navigate to this repository's homepage (https://github.com/WeilonYing/GameDevCore) and click on Open in Desktop (screenshot: https://imgur.com/a/m5nAW)
 * Pick a location to clone your repository to. GitHub Desktop should take care of the rest.
-* Navigate to the repository in your file explorer. You should be able to find the file GameDevCore.uproject. Open it in Unreal Engine 4 (in Windows, double clicking it should do this).
+* Navigate to the repository in your file browser (http://imgur.com/a/VZFZf). You should be able to find the file GameDevCore.uproject. Open it in Unreal Engine 4 (in Windows, double clicking it should do this).
 
 If Unreal Engine 4 opens it without any issue, then you have successfully cloned this repository. Good job! Let's move onto the next section.
 
@@ -27,3 +27,18 @@ When you first open this level, your screen should look something like this: htt
 Click on Play and start the game. You will be controlling a humanoid character. Unfortunately, he can't go very far, as the gap to the other side is too wide. Press Escape to exit the game once you're convinced that this is true :P
 
 We need to add a platform to allow the player to get to the other side (https://imgur.com/a/f7mGc). Drag and drop a cube object from the class viewer (https://imgur.com/a/6zwQY), and place it over the gap to allow the player to get across. Use the arrow handles to fine tune its location (make sure you're in translate mode: http://imgur.com/a/rgcgT), and scale it to properly fill in the gap (http://imgur.com/a/Gxly3). Test your game once you're done.
+
+The end result should look like this: http://imgur.com/a/zLGIW
+
+Once you're happy with the result, move on to the next section.
+
+## Adjusting Object Properties
+Most of the classes and objects that UE4 provides have properties and attributes that you can change without needing to write a single line of code. Take the SideScrollerCharacter for example (see image: http://imgur.com/a/Fd086).
+
+As seen in the image, the SideScrollerCharacter object is highlighted in the World Outliner. This tells you that this is the current selected object. There is a details pane below the World Outliner, which show all of the properties and attributes you can change for this object.
+
+In the details pane search bar, search "Max Walk Speed". Set the Max Walk Speed property from 600 to 6000 (http://imgur.com/a/N8Uhc). Once you're done, press Play. If done correctly, you'll notice that your character now has a significantly higher maximum speed.
+
+## Lighting
+Read the Unreal Engine 4 Lighting Tutorials here: https://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/. At the minimum, read Lighting Basics, Light Mobility and Types of Lights.
+
