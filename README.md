@@ -22,3 +22,8 @@ This repository uses GitHub as the host for this Git repository. GitHub provides
 If Unreal Engine 4 opens it without any issue, then you have successfully cloned this repository. Good job! Let's move onto the next section.
 
 ## Level Design Basics
+When you first open this level, your screen should look something like this: https://imgur.com/a/3w6T1. If you're unfamiliar with the user interface of Unreal Engine 4, please watch this video tutorial here: https://docs.unrealengine.com/latest/INT/Videos/PLZlv_N0_O1gasd4IcOe9Cx9wHoBB7rxFl/w4XlBKeE46E/index.html.
+
+Click on Play and start the game. You will be controlling a humanoid character. Unfortunately, he can't go very far, as the gap to the other side is too wide. Press Escape to exit the game once you're convinced that this is true :P
+
+We need to add a platform to allow the player to get to the other side (https://imgur.com/a/f7mGc). Drag and drop a cube object from the class viewer (https://imgur.com/a/6zwQY), and place it over the gap to allow the player to get across. Use the arrow handles to fine tune its location (make sure you're in translate mode: http://imgur.com/a/rgcgT), and scale it to properly fill in the gap (http://imgur.com/a/Gxly3). Test your game once you're done.
