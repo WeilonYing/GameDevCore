@@ -21,6 +21,8 @@ This repository uses GitHub as the host for this Git repository. GitHub provides
 
 If Unreal Engine 4 opens it without any issue, then you have successfully cloned this repository. Good job! Let's move onto the next section.
 
+If you're interested in learning Git for the command line, check out this website: https://try.github.io/
+
 ## Level Design Basics
 When you first open this level, your screen should look something like this: https://imgur.com/a/3w6T1. If you're unfamiliar with the user interface of Unreal Engine 4, please watch this video tutorial here: https://docs.unrealengine.com/latest/INT/Videos/PLZlv_N0_O1gasd4IcOe9Cx9wHoBB7rxFl/w4XlBKeE46E/index.html.
 
@@ -39,6 +41,15 @@ As seen in the image, the SideScrollerCharacter object is highlighted in the Wor
 
 In the details pane search bar, search "Max Walk Speed". Set the Max Walk Speed property from 600 to 6000 (http://imgur.com/a/N8Uhc). Once you're done, press Play. If done correctly, you'll notice that your character now has a significantly higher maximum speed.
 
+Feel free to tinker around with the other properties. Hint: Your player's acceleration remains the same. How could we make it reach its new maximum speed faster?
+
+Once you're happy with the results, move on to the next section.
+
 ## Lighting
 Read the Unreal Engine 4 Lighting Tutorials here: https://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/. At the minimum, read Lighting Basics, Light Mobility and Types of Lights.
+
+WIP
+
+## Uploading your changes to Git
+WIP
 
