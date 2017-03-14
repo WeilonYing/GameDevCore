@@ -4,7 +4,7 @@ Game Dev Society UNSW - Core learning repository
 ## Welcome!
 Welcome! Here, you will learn the core basics of Unreal Engine 4 that are relevant to both programmers and designers alike. Let's get started!
 
-## Getting started with Git version control
+## Version Control and Git
 You will need to clone (i.e. download) this repository to this computer to progress to the next section.
 If you are an experienced programmer, you'll probably already know how to use Git. If this is the case, clone this repository and go to the next section. If not, then read on.
 
