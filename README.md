@@ -60,7 +60,7 @@ WIP
 ## Uploading your changes to Git
 If you're an experienced programmer, you probably know how to do this already. If so, make a branch, name it "[your name]-homework", and push it to this repository.
 
-Once you're finished with your work, you'll need to upload your change to GitHub for marking. Because there will most likely be more than one person doing this lesson, you'll need to make a branch, so that you don't affect the master branch. For more information on branches and/or you wish to do this in the command line, read this tutorial: https://www.atlassian.com/git/tutorials/using-branches
+Once you're finished with your work, you'll need to upload your change to GitHub for marking. Because there will most likely be more than one person doing this lesson, you'll need to make a branch, so that you don't affect the master branch. Read this manual chapter for more information on branching https://www.sbf5.com/~cduan/technical/git/git-2.shtml. In fact, read the whole manual if you have time. For more information on branches and/or you wish to do this in the command line, read this tutorial as well: https://www.atlassian.com/git/tutorials/using-branches
 
 Let's make your branch! 
 1. Navigate to the GameDevCore repository in GitHub Desktop.
