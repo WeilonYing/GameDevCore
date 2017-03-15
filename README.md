@@ -49,7 +49,14 @@ Once you're happy with the results, move on to the next section.
 Read the Unreal Engine 4 Lighting Tutorials here: https://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/. At the minimum, read Lighting Basics, Light Mobility and Types of Lights.
 
 WIP
+* Disable sky sphere blueprint
+* Disable directional lighting
+* Use point lights and spotlight
+* Rotate and adjust their radius and attenuation
+* Re-enable sky sphere blueprint
+* Re-enable directional lighting
+* Rotate directional lighting, and refresh sky sphere blueprint to produce a sunset effect
 
 ## Uploading your changes to Git
-WIP
+
 
