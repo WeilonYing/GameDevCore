@@ -58,5 +58,18 @@ WIP
 * Rotate directional lighting, and refresh sky sphere blueprint to produce a sunset effect
 
 ## Uploading your changes to Git
+If you're an experienced programmer, you probably know how to do this already. If so, make a branch, name it "[your name]-homework", and push it to this repository.
+
+Once you're finished with your work, you'll need to upload your change to GitHub for marking. Because there will most likely be more than one person doing this lesson, you'll need to make a branch, so that you don't affect the master branch. For more information on branches and/or you wish to do this in the command line, read this tutorial: https://www.atlassian.com/git/tutorials/using-branches
+
+Let's make your branch! 
+1. Navigate to the GameDevCore repository in GitHub Desktop.
+2. Follow the instructions to create a branch here: https://help.github.com/desktop/guides/contributing/creating-a-branch-for-your-work/
+3. Name your branch "[your name]-homework"
+4. Commit your branch and push it.
+
+If done successfully, you should see your branch appear here: https://github.com/WeilonYing/GameDevCore/branches
+
+That's it! Good job :)
 
 
