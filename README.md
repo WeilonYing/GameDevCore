@@ -4,6 +4,11 @@ Game Dev Society UNSW - Core learning repository
 ## Welcome!
 Welcome! Here, you will learn the core basics of Unreal Engine 4 that are relevant to both programmers and designers alike. Let's get started!
 
+### If you need help
+The tutorial is designed to give you the basic resources you need to learn on your own, so try to solve any issues you have by yourself first. Google, as well as the Unreal Engine Wiki are both great resources to go to if you're stuck.
+
+That being said, help is at hand. Send a message to Weilon Ying if you're stuck on a particular part of this tutorial. 
+
 ## Version Control and Git
 You will need to clone (i.e. download) this repository to this computer to progress to the next section.
 If you are an experienced programmer, you'll probably already know how to use Git. If this is the case, clone this repository and go to the next section. If not, then read on.
