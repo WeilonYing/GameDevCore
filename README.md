@@ -80,7 +80,7 @@ Let's make your branch!
 
 If done successfully, you should see your branch appear here: https://github.com/WeilonYing/GameDevCore/branches.
 
-If you don't have permission to create a branch, send a me a message (Weilon Ying) and I'll add you to the contributors list. Alternatively, you may choose to make a fork of this project and add it to your own GitHub profile.
+If you don't have permission to create a branch, send me a message (Weilon Ying) and I'll add you to the contributors list. Alternatively, you may choose to make a fork of this project and add it to your own GitHub profile.
 
 That's it! Good job :)
 
