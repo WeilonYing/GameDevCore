@@ -48,14 +48,19 @@ Once you're happy with the results, move on to the next section.
 ## Lighting
 Read the Unreal Engine 4 Lighting Tutorials here: https://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/. At the minimum, read Lighting Basics, Light Mobility and Types of Lights.
 
-WIP
-* Disable sky sphere blueprint
-* Disable directional lighting
-* Use point lights and spotlight
-* Rotate and adjust their radius and attenuation
-* Re-enable sky sphere blueprint
-* Re-enable directional lighting
-* Rotate directional lighting, and refresh sky sphere blueprint to produce a sunset effect
+First off, we're going to disable the sun and the sky in order to experiment with point lights.
+* In the World Outliner, CTRL + Click on SkySphereBlueprint, Light Source and AtmosphericFog and set them to be hidden in-game. Click on the eye icon in the World Outliner to also make them invisible in the editor. (http://imgur.com/a/VO1bl)
+* In the Modes window, type in "Light" in the search bar. Drag and drop the Point Light from the window into the game. (http://imgur.com/a/B5aRc).
+* Repeat until you've lit the area up. Feel free to adjust the radius and attenuation.
+
+While the end result is probably not that impressive, lighting with Point Lights is a common way of simulating small sources of light, such as fire torches, lanterns and light bulbs.
+
+Let's bring back the sky, and create a sunset effect.
+* Re-enable Light Source and AtmosphericFog, both in-game and in editor. You should be able to see sunlight and a lit sky (http://imgur.com/a/J2F8b). Delete SkySphereBlueprint from the World Outliner.
+* Click on Light Source in the World Outliner, then select the Rotator in the game editor window. You should be able to see the rotator handles (the green, blue red thingy) in the window. (http://imgur.com/a/yMHu1)
+* Left click and hold on the green handle, then drag it up or down. If you can't see the sun, keep dragging it and it should appear eventually. (http://imgur.com/a/Q2zcN)
+* Adjust the sun so that it's just above the horizon. It should look something like this: http://imgur.com/a/nMOt2
+* If the sunlight is too dark, you can adjust the intensity of the light: http://imgur.com/a/rKa2l
 
 ## Uploading your changes to Git
 If you're an experienced programmer, you probably know how to do this already. If so, make a branch, name it "[your name]-homework", and push it to this repository.
